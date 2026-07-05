@@ -7,43 +7,140 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1> My resume--Ashitha Mary Chacko</h1>
+    <header id="top" class="hero-header">
+        <h1>Ashitha Mary Chacko</h1>
+        <p>Full Stack Developer | Web Designer | AI Enthusiast</p>
+        <a href="#Projects" class="btn">View My Work</a>
     </header>
     <nav>
+        
+           <a href="#top">
+           <img src="images/logo.png" class="logo">
+           </a>
+       
         <ul>
+            <!-- <li><a href="#Home"><img src="images/logo.png" alt="Logo"></a></li> -->
             <li><a href="#Home">Home</a></li>
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Achievements">Achievements</a></li>
             <li><a href="#Contact">Contact</a></li>
         </ul>
      </nav>
 
      <main>
-        <section id="about">
+        <section id="Home">
           <h3>ABOUT ME</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quae numquam pariatur non molestiae autem, magnam nam modi iste tempora fugiat facilis laudantium quam ea iusto? Iure illo eius quisquam?</p>
+          <div>
+            <figure><img src="images/image (13).jpeg" class="image"></figure>
+            <h1>Hi, I'm Ashitha Mary Chacko</h1>
+            <!-- <h2> B.Tech CSE Student</h2> -->
+            <p>
+            I am a passionate Computer Science Engineering student with a strong interest in
+            Full Stack Web Development and modern web technologies. I enjoy building
+            responsive, user-friendly websites and continuously expanding my knowledge
+            through projects, internships, and hands-on learning.
+            <br><br>
+            I have experience working with HTML, CSS, JavaScript, Python, Git, GitHub, and
+            Flask, and I'm always excited to learn new technologies and solve real-world
+            problems through code.
+            </p>
+          </div>
         </section>
 
-        <section id="projects">
+        <section id="Projects">
             <h3>PROJECTS</h3>
             <ul>
                 <li>Rank-Up:a learning platform</li>
-                <li>Project 2</li>
+                <li>To-Do list: A simple to-do list application
+                     <a href="https://ash1tha.github.io/To-do-list/" target="_blank">(View)</a>
+                </li>
+                <li>Simple calculator:A Python project
+                    <a href="https://github.com/ash1tha/Calculator-py" target="_blank">(View)</a>
+                </li>
+                <li>Quote Generator:A Python Flask project
+                    <a href="https://github.com/ash1tha/Quote-Generator" target="_blank">(View)</a>
+                </li>
+                <li>Contact Book Website:A Python project using sqlite3
+                    <a href="https://github.com/ash1tha/Contact-Book" target="_blank">(View)</a>
+                </li>
             </ul>
         </section>
 
-        <section id="skills">
+        <section id="Skills">
             <h3>SKILLS</h3>
-            <div>
-             <figure>
-               <img src="htmlnew2.jpg" alt="html" height="6.25rem" width="5rem">
-               <img src="cssimage.png" alt="css" height="6.25rem" width="5rem">
-               <img src="jsimg.png" alt="js" height="6.25rem" width="5rem">
-             </figure>
+         <div class="skills-container">
+            <div class="skill-card">
+                <img src="images/htmlnew2.jpg">
+                <p>HTML</p>
+             </div>
+
+            <div class="skill-card">
+                <img src="images/cssimage.png">
+                <p>CSS</p>
             </div>
+
+            <div class="skill-card">
+                <img src="images/jsimg.png">
+                <p>JavaScript</p>
+             </div>
+
+            <div class="skill-card">
+                <img src="images/git.png">
+                <p>GitHub</p>
+             </div>
+            
+             <div class="skill-card">
+                <img src="images/figma.png">
+                <p>Figma</p>
+             </div>
+
+             <!-- <div class="skill-card">
+                <img src="images/gitimage.png">
+                <p>GIT</p>
+             </div> -->
+         </div>
             
         </section>
+
+        <section id="Achievements">
+           <h3>Achievements</h3>
+             <div class="gallery">
+                <div class="card">
+                   <img src="images/gitwrkshp.jpeg">
+                   <h4>Git Workshop</h4>
+                   <p>Completed an intensive Git & GitHub workshop.</p>
+                </div>
+                <div class="card">
+                   <img src="images/figmento.jpeg">
+                   <h4>Figmento Bootcamp</h4>
+                   <p>Participated in Full Stack Development Bootcamp.</p>
+                </div>
+                <div class="card">
+                   <img src="images/codecraft.jpeg">
+                   <h4>CodeCraft</h4>
+                   <p>Successfully completed the coding challenge.</p>
+                </div>
+            </div>
+        </section> 
+
+        <section id="Contact">
+          <h3>CONTACT</h3>
+          <div>
+            <figure>
+               <a href="https://www.linkedin.com/in/ashitha-mary-chacko-29343728b/" target="_blank"><img src="images/linkedin.webp" class="linkedin"></a>
+               <a href="https://twitter.com/AshithaMary2204" target="_blank"><img src="images/x.avif" class="twitter"></a>
+               <a href="https://github.com/ash1tha" target="_blank"><img src="images/git.png" class="github"></a>
+               <a href="https://www.instagram.com/___a_s_h_it_h_a___/" target="_blank"><img src="images/insta.png" class="instagram"></a>
+             </figure>
+          </div>
+        </section>
      </main>
+     <footer>
+          <h2>Let's Build Something Amazing Together</h2>
+          <p>© 2026 Ashitha Mary Chacko</p>
+     </footer>
+     <button id="topBtn">↑</button>
+     <script src="script.js"></script>
 </body>
 </html>
